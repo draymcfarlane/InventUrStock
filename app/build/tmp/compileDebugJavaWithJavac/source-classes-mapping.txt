@@ -1,0 +1,63 @@
+com/example/inventoryfinal/OnBoardingFragment1.java
+ com.example.inventoryfinal.OnBoardingFragment1
+ com.example.inventoryfinal.OnBoardingFragment1$1
+com/example/inventoryfinal/RegisterPage.java
+ com.example.inventoryfinal.RegisterPage
+ com.example.inventoryfinal.RegisterPage$1
+ com.example.inventoryfinal.RegisterPage$2
+ com.example.inventoryfinal.RegisterPage$2$1
+com/example/inventoryfinal/ForgotPassword.java
+ com.example.inventoryfinal.ForgotPassword
+ com.example.inventoryfinal.ForgotPassword$1
+com/example/inventoryfinal/User.java
+ com.example.inventoryfinal.User
+com/example/inventoryfinal/InventoryPage.java
+ com.example.inventoryfinal.InventoryPage
+ com.example.inventoryfinal.InventoryPage$1
+com/example/inventoryfinal/ViewItems.java
+ com.example.inventoryfinal.ViewItems
+ com.example.inventoryfinal.ViewItems$1
+ com.example.inventoryfinal.ViewItems$2
+ com.example.inventoryfinal.ViewItems$3
+com/example/inventoryfinal/IntroductoryActivity.java
+ com.example.inventoryfinal.IntroductoryActivity
+ com.example.inventoryfinal.IntroductoryActivity$ScreenSlidePagerAdapter
+com/example/inventoryfinal/AddNewItemsClass.java
+ com.example.inventoryfinal.AddNewItemsClass
+com/example/inventoryfinal/OnBoardingFragment2.java
+ com.example.inventoryfinal.OnBoardingFragment2
+ com.example.inventoryfinal.OnBoardingFragment2$1
+com/example/inventoryfinal/BuildConfig.java
+ com.example.inventoryfinal.BuildConfig
+com/example/inventoryfinal/ViewItemsEdit.java
+ com.example.inventoryfinal.ViewItemsEdit
+ com.example.inventoryfinal.ViewItemsEdit$1
+ com.example.inventoryfinal.ViewItemsEdit$2
+ com.example.inventoryfinal.ViewItemsEdit$3
+ com.example.inventoryfinal.ViewItemsEdit$4
+com/example/inventoryfinal/AddNewAdapter.java
+ com.example.inventoryfinal.AddNewAdapter
+ com.example.inventoryfinal.AddNewAdapter$AddHolder
+com/example/inventoryfinal/ChangePassword.java
+ com.example.inventoryfinal.ChangePassword
+ com.example.inventoryfinal.ChangePassword$1
+com/example/inventoryfinal/LoginActivity.java
+ com.example.inventoryfinal.LoginActivity
+ com.example.inventoryfinal.LoginActivity$1
+com/example/inventoryfinal/AddItems.java
+ com.example.inventoryfinal.AddItems
+ com.example.inventoryfinal.AddItems$1
+ com.example.inventoryfinal.AddItems$2
+com/example/inventoryfinal/ViewProfile.java
+ com.example.inventoryfinal.ViewProfile
+ com.example.inventoryfinal.ViewProfile$1
+ com.example.inventoryfinal.ViewProfile$2
+ com.example.inventoryfinal.ViewProfile$3
+ com.example.inventoryfinal.ViewProfile$3$1
+ com.example.inventoryfinal.ViewProfile$3$1$1
+ com.example.inventoryfinal.ViewProfile$3$2
+ com.example.inventoryfinal.ViewProfile$4
+ com.example.inventoryfinal.ViewProfile$5
+com/example/inventoryfinal/OnBoardingFragment3.java
+ com.example.inventoryfinal.OnBoardingFragment3
+ com.example.inventoryfinal.OnBoardingFragment3$1
