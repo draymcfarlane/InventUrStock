@@ -127,4 +127,91 @@ Used for a user greeting when in the inventory menu.
 
 </details>
 
+</details><br/><br/>
+
+
+## 4/ Output screenshots of application running
+<details><summary>Click to open</summary>
+  
+### &emsp; 4.1/ Splash screen start
+<details><summary>Click to open</summary>
+</details>
+  
+### &emsp; 4.2/ Fragment liquid slider
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.3/ Account registration
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.4/ Email verification
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.5/ Email sent
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.6/ After clicking on link
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.7/ Inventory menu
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.8/ Viewing the profile
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.9/ Returned to the menu, add new items
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.10/ Viewing all items
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.11/ Deleting new addition, accessed by clicking edit button at the bottom right
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.12/ Exit edit mode button returns to previous activity displaying a non-interactable List View
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.13/ Adding new data, accessed by clicking plus button at the bottom right in edit activity
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.14/ Change / Forgot Password 
+<details><summary>Click to open</summary>
+(Both activities are practically the same. Only difference is when clicking the return to menu button, one returns you to your account display (Change Password since you are already in the account), and the other returns you to login (Forgot Password since you are not in the account). I could have set it to one activity controlling the password reset, though in the case of the user logged in accidently clicking it, they would not want to be logged out just trying to return to their account display)
+</details>
+ 
+### &emsp; 4.15/ Email sent
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.16/ After clicking link
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.17/ Old pass no longer works
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.18/ New pass
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.19/ Account deleting
+<details><summary>Click to open</summary>
+</details>
+
+### &emsp; 4.20/ Data can be displayed showing which user in the company entered it
+<details><summary>Click to open</summary>
+</details>
+
 </details>
