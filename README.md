@@ -133,10 +133,10 @@ Each record added is added under a `UID (Unique Identification Number)`, this is
 - `email`: Email associated with created account.
 - `pass`: Password set for the account.
 
-<br/>
-
 </details>
   
+<br/>
+
 ### &emsp; 3.2/ ADDED ACCOUNT AND INVENTORY DATA
 <details><summary>Click to open</summary><br/>
 
@@ -154,9 +154,9 @@ The same concept goes for added a new record to the inventory.<br/>
 
 > _____________________________________________________________________________________________________________________
 
-<br/>
-
 </details>
+
+<br/>
 
 ### &emsp; 3.3/ ACCOUNT AND INVENTORY DELETION
 <details><summary>Click to open</summary><br/>
@@ -175,9 +175,9 @@ The same concept goes for deleting a record in inventory.<br/>
 
 > _____________________________________________________________________________________________________________________
 
-<br/>
-
 </details>
+
+<br/>
 
 ### &emsp; 3.4/ INVENTORY OVERRITE
 <details><summary>Click to open</summary><br/>
@@ -189,8 +189,6 @@ Data within the database can be overwritten if a password, email, record data is
 > ![image](https://github.com/user-attachments/assets/5a6e7d26-fcc8-4edf-8f59-edc8abb7e547)
 
 > _____________________________________________________________________________________________________________________
-
-<br/>
 
 </details>
 
