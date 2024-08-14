@@ -108,7 +108,7 @@ Used for a user greeting when in the inventory menu.
 
 <details><summary>Click to open</summary><br/>
 
-### &emsp; 3.1/ OPENED AND CLOSED NODES IN DATABASE
+### &emsp; 3.1/ Opened and closed nodes in database
 <details><summary>Click to open</summary><br/>
 
 The Database was created to house all the data sent from the app. I split the data into 2 different categories using nodes `Inventory` and `Users`. Each node has child nodes that capture important information for the rest of the application to run off of.<br/>
@@ -137,7 +137,7 @@ Each record added is added under a `UID (Unique Identification Number)`, this is
   
 <br/>
 
-### &emsp; 3.2/ ADDED ACCOUNT AND INVENTORY DATA
+### &emsp; 3.2/ Added account and inventory data
 <details><summary>Click to open</summary><br/>
 
 When a user creates an account, a new `UID` is then created and added under the appropriate node.<br/>
@@ -158,7 +158,7 @@ The same concept goes for added a new record to the inventory.<br/>
 
 <br/>
 
-### &emsp; 3.3/ ACCOUNT AND INVENTORY DELETION
+### &emsp; 3.3/ Account and inventory deletion
 <details><summary>Click to open</summary><br/>
 
 When a user chooses to delete an account, the `UID` tied to the account is then called from the database. Its used to ensure the correct account is being removed and no other.<br/>
@@ -179,7 +179,7 @@ The same concept goes for deleting a record in inventory.<br/>
 
 <br/>
 
-### &emsp; 3.4/ INVENTORY OVERRITE
+### &emsp; 3.4/ Inventory overwrite
 <details><summary>Click to open</summary><br/>
 
 Data within the database can be overwritten if a password, email, record data is changed. This function utilizes the same `UID` concept as before with the account or record creation.<br/>
@@ -196,14 +196,16 @@ Data within the database can be overwritten if a password, email, record data is
 
 
 ## 4/ Output screenshots of application running
-<details><summary>Click to open</summary>
+<details><summary>Click to open</summary><br/>
   
 ### &emsp; 4.1/ Splash screen start
 <details><summary>Click to open</summary><br/>
 
 ![image](https://miro.medium.com/v2/resize:fit:2000/format:webp/1*WNv2vYX_vB2RA_O43Phrmw.gif)
 
-I do not own this gif, if the original owner wishes for it to be taken down please reach out to my email: draymcfarlane@gmail.com<br/>
+I do not own this gif, if the original owner wishes for it to be taken down please reach out to my email: draymcfarlane@gmail.com
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -211,9 +213,9 @@ I do not own this gif, if the original owner wishes for it to be taken down plea
 
 > _____________________________________________________________________________________________________________________
 
-<br/>
-
 </details>
+
+<br/>
   
 ### &emsp; 4.2/ Fragment liquid slider
 <details><summary>Click to open</summary><br/>
@@ -222,37 +224,62 @@ Below is an example of how this functions from [geeksforgeeks](https://www.geeks
 
 ![image](https://media.geeksforgeeks.org/wp-content/uploads/20210301114737/LiquidSwipeAnimationinAndroid.gif)
 
+What it looks like in the app, just provides basic information. I provided a skip button at the top right to bypass all the pages and take you straight to the login screen. There is a nifty page counter at the bottom left as well.
+
+<br/>
+
 > _____________________________________________________________________________________________________________________
 
-What it looks like in the app, just provides basic information. I provided a skip button at the top right to bypass all the pages and take you straight to the login screen. There is a nifty page counter at the bottom left as well.<br/>
 > ![image](https://github.com/user-attachments/assets/f6d369cb-eb4b-423c-87ee-ab3013dc2490)
 
 <br/>
 
 What each fragment looks like:<br/>
-`fragment_on_boarding1.xml`<br/>
+
+`fragment_on_boarding1.xml`
+
+<br/>
+
 > ![image](https://github.com/user-attachments/assets/91f4703b-a45a-41e4-aee5-685f3f348f70)
 
-`fragment_on_boarding2.xml`<br/>
+<br/>
+
+`fragment_on_boarding2.xml`
+
+<br/>
+
 > ![image](https://github.com/user-attachments/assets/40c88b2b-2b66-448e-a3ad-5110660f6ad0)
 
-`fragment_on_boarding3.xml`<br/>
+<br/>
+
+`fragment_on_boarding3.xml`
+
+<br/>
+
 > ![image](https://github.com/user-attachments/assets/e2958a4b-a547-4a19-92b1-e485b4c5fcd5)
 
 > _____________________________________________________________________________________________________________________
 
-<br/>
-
 </details>
+
+<br/>
 
 ### &emsp; 4.3/ Account registration
 <details><summary>Click to open</summary><br/>
+
+During registration, the user is prompted to enter typical account information such as `Username`, `Email`, and `Password`. There are conditions in place to ensure the correct data type is entered in each field, the correct email format, and a confirm password field that ensures the passwords are the same and set.
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
 > ![image](https://github.com/user-attachments/assets/658e7b89-809b-4db3-9364-9c60fabea24b)
 
-<br/><br/>
+<br/>
+
+Once each condition is met, the account is created and the user is redirected to the login screen.<br/>
+
+<br/>
 
 > ![image](https://github.com/user-attachments/assets/eedf34d3-242a-4c24-8a9e-9ed6f1738a53)
 
@@ -260,8 +287,14 @@ What each fragment looks like:<br/>
 
 </details>
 
+<br/>
+
 ### &emsp; 4.4/ Email verification
 <details><summary>Click to open</summary><br/>
+
+Before being able to login to the account created, the user is prompted to check the email they created the account with for a verification email. Doing this would essentially reduce any spam email accounts being created
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -272,6 +305,10 @@ What each fragment looks like:<br/>
 ### &emsp; &emsp; 4.4.1/ Email sent
 <details><summary>Click to open</summary><br/>
 
+The email is sent using Firebase's email verification function, sadly, not much can be configured with the format of the message.
+
+<br/>
+
 > _____________________________________________________________________________________________________________________
 
 > ![image](https://github.com/user-attachments/assets/85df95fc-196a-44e8-8d87-55b8dccabf8a)
@@ -280,8 +317,14 @@ What each fragment looks like:<br/>
 
 </details>
 
+<br/>
+
 ### &emsp; &emsp; 4.4.2/ After clicking on link
 <details><summary>Click to open</summary><br/>
+
+Once the link in the email is click, it would redirect the user to a new tab confirming their verification.
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -289,12 +332,25 @@ What each fragment looks like:<br/>
 
 > _____________________________________________________________________________________________________________________
 
-</details><br/><br/>
+</details>
+
+<br/>
+
+`_____________________________________________________________________________________________________________________________________`
 
 </details>
 
+<br/>
+
 ### &emsp; 4.5/ Inventory menu
 <details><summary>Click to open</summary><br/>
+
+Once verified and logged in, this is the dashboard that is displayed providing three different options to choose from:
+- View Profile
+- Add New Items
+- View All Items
+  
+<br/>
   
 > _____________________________________________________________________________________________________________________
 
@@ -304,8 +360,18 @@ What each fragment looks like:<br/>
 
 </details>
 
-### &emsp; 4.6/ Viewing the profile
+<br/>
+
+### &emsp; 4.6/ View Profile
 <details><summary>Click to open</summary><br/>
+
+Viewing the profile would fetch data for the logged in `UID` and display them on screen. The user was then displayed 3 options for their account and a return button: 
+- Delete Account
+- Change Password
+- Logout
+- Return To Menu
+  
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -313,16 +379,158 @@ What each fragment looks like:<br/>
 
 > _____________________________________________________________________________________________________________________
 
+<br/>
+
+### &emsp; &emsp; 4.6.1/ Account deleting
+<details><summary>Click to open</summary><br/>
+
+The user has the option to delete their account, they are warned before doing so.
+
+<br/>
+
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/29fcdb0f-5a07-42f8-8395-3bdd2a0127d0)
+
+<br/>
+
+If the user follows through with the deletion, their account is then removed from the database and redirected to the login screen. If they try to re-enter the credentials that were deleted, it would prompt them to register that account to login.
+
+<br/>
+
+> ![image](https://github.com/user-attachments/assets/3e85483a-36df-4123-991b-6bfb9a73fc08)
+
+> _____________________________________________________________________________________________________________________
+
 </details>
 
-### &emsp; 4.7/ Returned to the menu, add new items
+<br/>
+
+### &emsp; &emsp; 4.6.2/ Change / Forgot Password 
 <details><summary>Click to open</summary><br/>
+  
+Both activities are practically the same. Only difference is when clicking the return to menu button, one returns you to your account display (Change Password since you are already in the account), and the other returns you to login (Forgot Password since you are not in the account). The user must enter the email associated with the account they're trying to change the password on.
+  
+<br/>
+
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/c547694d-8d60-47bb-a424-faef212ab646)
+
+<br/>
+
+Once the email is entered, the user is then redirected to the login page and notified to check their inbox.
+
+<br/>
+
+> ![image](https://github.com/user-attachments/assets/ef74b03e-2143-4349-8ad2-4a94189e3e86)
+
+> _____________________________________________________________________________________________________________________
+ 
+<br/>**Email sent**<br/>
+
+Similar to the email verification, the template firebase provided for password reset has little configuration that can be done. 
+
+<br/>
+
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/c18d24d8-1909-41ed-91b0-53977898377f)
+
+> _____________________________________________________________________________________________________________________
+
+<br/>**After clicking link**<br/>
+
+Once the link in the email is click, it would redirect the user to a new tab to change their password. Sadly, another limitation with Firebase is that their password strength reset conditions don't seem to be configurable. That said, the minimum length requirement is only 6.
+
+<br/>
+  
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/49f0f5e0-7abc-428b-8b28-551140be5371)
+
+<br/>
+
+After the password conditions are met, the user is notified they can sign in with their new password.
+
+<br/>
+
+> ![image](https://github.com/user-attachments/assets/b797712a-5954-49b1-8768-a21d15600687)
+
+> _____________________________________________________________________________________________________________________
+
+<br/>**Old password no longer works**<br/>
+
+There is a condition set to prevent users from using their old passwords after the change.
+
+<br/>
+
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/4b2788c1-9fd1-4243-b283-b542f5c1561e)
+
+> _____________________________________________________________________________________________________________________
+
+<br/>**New password**<br/>
+
+Seeing the new password was only 6 characters long, we can test to see if it accepts the new password set.
+
+<br/>
+
+> _____________________________________________________________________________________________________________________
+
+> ![image](https://github.com/user-attachments/assets/83ddd5d4-b70d-4d13-95e5-76116d2c577d)
+
+<br/>
+
+The user is then logged in with their new password.
+
+<br/>
+
+> ![image](https://github.com/user-attachments/assets/75be070e-7901-4fa5-a646-c3ab5f89a824)
+
+> _____________________________________________________________________________________________________________________
+
+</details>
+
+<br/>
+
+### &emsp; &emsp; 4.6.3/ Logout 
+<details><summary>Click to open</summary><br/>
+The Logout button simply returned the user to the login screen<br/>
+
+</details>
+
+<br/>
+
+`_____________________________________________________________________________________________________________________________________`
+
+</details>
+
+<br/>
+
+### &emsp; 4.7/ Add New Items
+<details><summary>Click to open</summary><br/>
+
+The user can provide the details required in each field to be inventoried, these fields are:
+- Barcode
+- Product Name
+- Category
+- Price
+
+Clicking the `ADD NEW ITEM` button pushes the data to the database.
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
 > ![image](https://github.com/user-attachments/assets/430ec289-a2c4-42bd-8a65-75c947d314d7)
 
-<br/><br/>
+<br/>
+
+Above and below is an example of an item being inventoried. Above shows the data being entered, and below shows the data has been submitted.
+
+<br/>
 
 > ![image](https://github.com/user-attachments/assets/a4642f64-77e1-4365-9ad3-816eb257bc3f)
 
@@ -330,8 +538,14 @@ What each fragment looks like:<br/>
 
 </details>
 
+<br/>
+
 ### &emsp; 4.8/ Viewing all items
 <details><summary>Click to open</summary><br/>
+
+This is where all the items being inventoried are displayed, pulled straight from the database.
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -341,8 +555,14 @@ What each fragment looks like:<br/>
 
 </details>
 
-### &emsp; 4.9/ Deleting new addition, accessed by clicking edit button at the bottom right
+<br/>
+
+### &emsp; 4.9/ Deleting new addition
 <details><summary>Click to open</summary><br/>
+
+>>>>>>>>>>>>This is where I stopped
+
+<br/>
 
 > _____________________________________________________________________________________________________________________
 
@@ -351,6 +571,8 @@ What each fragment looks like:<br/>
 > _____________________________________________________________________________________________________________________
 
 </details>
+
+<br/>
 
 ### &emsp; 4.10/ Exit edit mode button returns to previous activity displaying a non-interactable List View
 <details><summary>Click to open</summary><br/>
@@ -363,6 +585,8 @@ What each fragment looks like:<br/>
 
 </details>
 
+<br/>
+
 ### &emsp; 4.11/ Adding new data, accessed by clicking plus button at the bottom right in edit activity
 <details><summary>Click to open</summary><br/>
 
@@ -374,91 +598,9 @@ What each fragment looks like:<br/>
 
 </details>
 
-### &emsp; 4.12/ Change / Forgot Password 
-<details><summary>Click to open</summary><br/>
-Both activities are practically the same. Only difference is when clicking the return to menu button, one returns you to your account display (Change Password since you are already in the account), and the other returns you to login (Forgot Password since you are not in the account). I could have set it to one activity controlling the password reset, though in the case of the user logged in accidently clicking it, they would not want to be logged out just trying to return to their account display<br/>
+<br/>
 
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/c547694d-8d60-47bb-a424-faef212ab646)
-
-<br/><br/>
-
-> ![image](https://github.com/user-attachments/assets/ef74b03e-2143-4349-8ad2-4a94189e3e86)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
- 
-### &emsp; 4.13/ Email sent
-<details><summary>Click to open</summary><br/>
-
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/c18d24d8-1909-41ed-91b0-53977898377f)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
-
-### &emsp; 4.14/ After clicking link
-<details><summary>Click to open</summary><br/>
-Sadly, a limitation with Firebase is that their password strength reset conditions don't seem to be configurable. That said, the minimum length requirement is only 6<br/>
-  
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/49f0f5e0-7abc-428b-8b28-551140be5371)
-
-<br/><br/>
-
-> ![image](https://github.com/user-attachments/assets/b797712a-5954-49b1-8768-a21d15600687)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
-
-### &emsp; 4.15/ Old pass no longer works
-<details><summary>Click to open</summary><br/>
-
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/4b2788c1-9fd1-4243-b283-b542f5c1561e)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
-
-### &emsp; 4.16/ New pass
-<details><summary>Click to open</summary><br/>
-
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/83ddd5d4-b70d-4d13-95e5-76116d2c577d)
-
-<br/><br/>
-
-> ![image](https://github.com/user-attachments/assets/75be070e-7901-4fa5-a646-c3ab5f89a824)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
-
-### &emsp; 4.17/ Account deleting
-<details><summary>Click to open</summary><br/>
-
-> _____________________________________________________________________________________________________________________
-
-> ![image](https://github.com/user-attachments/assets/29fcdb0f-5a07-42f8-8395-3bdd2a0127d0)
-
-<br/><br/>
-
-> ![image](https://github.com/user-attachments/assets/3e85483a-36df-4123-991b-6bfb9a73fc08)
-
-> _____________________________________________________________________________________________________________________
-
-</details>
-
-### &emsp; 4.18/ Data can be displayed showing which user in the company entered it
+### &emsp; 4.12/ Data can be displayed showing which user in the company entered it
 <details><summary>Click to open</summary><br/>
 
 > _____________________________________________________________________________________________________________________
