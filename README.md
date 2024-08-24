@@ -503,7 +503,7 @@ The Logout button simply returned the user to the login screen<br/>
 
 <br/>
 
-`__________________________________________End of subsection__________________________________________________`
+`____________________________________________End of subsection________________________________________________`
 
 
 </details>
